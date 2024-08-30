@@ -1,0 +1,80 @@
+*, 
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Inter", system-ui;
+}
+.container {
+    width: 95%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+ul li button, ul li a {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #4444443e;
+}
+main h1 {
+    font-size: 40px;
+    margin: 5px 0 30px 0;
+}
+main h2 {
+    font-size: 35px;
+    margin: 30px 0 0 0;
+}
+main h3 {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 20px 0 0 0;
+}
+main p,main li {
+    font-size: 22px;
+    line-height: 40px;
+    margin: 10px 0;
+}
+
+
+/* header  */
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    border-bottom: 1px solid #44444449;
+    color: black;
+
+    list-style: none;
+}
+header nav ul li img {
+    width: 100%;
+}
+header nav ul li:last-child a {
+    background-color: #ff5454;
+    color: white;
+}
+
+
+
+
+/* main  */
+main .pages .page {
+    padding: 30px;
+    background-color: #40404015;
+    margin: 30px 0;
+    border-radius: 20px;
+}
+main .pages .page img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+main ul li {
+    margin: 0 0 0 22px;
+}

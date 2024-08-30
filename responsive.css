@@ -1,0 +1,32 @@
+/* table view  */
+@media screen and (max-width: 1000px) {
+
+    main .cards {
+        grid-template-columns: auto auto;
+    }
+}
+
+
+/* mobile view  */
+@media screen and (max-width: 600px) {
+
+    /* header  */
+    header nav ul {
+        flex-direction: column;
+        gap: 20px;
+        border: none;
+        margin-top: 30px;
+    }
+
+    /* main  */
+    main ul {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 100px 0;
+        text-align: center;
+    }
+
+    main .cards {
+        grid-template-columns: auto;
+    }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="blog-style.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><img src="img/Logo.png" alt=""></li>
+                    <li><a>Sort by view</a></li>
+                    <li><a>Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="pages">
+                <div class="first-page page">
+                    <h1>Discuss the scope of var, let, and const</h1>
+                    <img src="img/var, let, const.png" alt="">
+                    <p>var declarations are globally scoped or function scoped while let and const are block scoped. var variables can be updated and re-declared within its scope.</p>
+                    <p>let variables can be updated but not re-declared.</p>
+                    <p>const variables can neither be updated nor re-declared </p>
+                    <p>All the variables are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables are not initialized. var and let can be declared without being initialized, const must be initialized during declaration</p>
+                </div>
+                <div class="second-page page">
+                    <h1>Tell us the use cases of null and undefined</h1>
+                    <img src="img/Null & Undefined.png" alt="">
+                    <h2>null:</h2>
+                    <ul>
+                        <li>Null means an empty value or a blank value</li>
+                        <li>It is often used to indicate that a variable or property does not currently have a meaningful value or that a value has been explicitly removed or reset to</li>
+                    </ul>
+                    <h3>Use cases:</h3>
+                    <ul>
+                        <li>Initializing variables or properties to indicate that they have no value yet.</li>
+                        <li>As a placeholder for missing or empty data</li>
+                        <li>As a return value to indicate that a function did not produce a meaningful result.</li>
+                    </ul>
+                    <h2>undefined:</h2>
+                    <ul>
+                        <li>Undefined means the variable has been declared, but its value has not been assigned</li>
+                    </ul>
+                    <h3>Use cases:</h3>
+                    <ul>
+                        <li>Accessing object properties that do not exist.</li>
+                        <li>Function parameters that have not been provided a value by the caller.</li>
+                        <li>Variables or properties that have been explicitly set to undefined to indicate their undefined state.</li>
+                    </ul>
+                </div>
+                <div class="third-page page">
+                    <h1>What do you mean by REST API?</h1>
+                    <img src="img/REST API.png" alt="">
+                    <p>Application Programme Interface abbreviated as API which is a software intermediary that allows two applications to talk to each other.</p>
+                    <h3>Example :</h3>
+                    <p> If user wants to book train tickets, web application shows the departure time, stations like that all the informations, when we look in this from the developer side, developer wants to display all the train schedule informations in the web application, then developer use the APIs to get these train informations from the web server where all the train details and informations are stored. Then developers can retrieve data from the web server using the APIs to display in the web application.</p>
+                    <h3>What is REST API? :</h3>
+                    <p>REpresentational State Transfer abbreviated to REST. It is an API that follows a set of rules for an application and services to communicate with each other.</p>
+                    <p>REST APIs work by fielding requests for a resource and returning all relevant information about the resource, translated into a format that clients can easily interpret (this format is determined by the API receiving requests). Clients can also modify items on the server and even add new items to the server through a REST API.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
